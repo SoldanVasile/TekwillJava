@@ -8,7 +8,7 @@ public class LearningVariables {
 
 
 	int perimetreOfFigure, arriaOfFigure, lenghtOfEdge;
-	string errorMesage, commentMesage, netName;
+	String errorMesage, commentMesage, netName;
 	boolean isPaswordActivate, isInternetConection, isUserLoginn;
 
   }
