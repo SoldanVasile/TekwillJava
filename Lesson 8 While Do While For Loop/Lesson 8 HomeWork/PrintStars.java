@@ -22,8 +22,6 @@ public class PrintStars {
 
 		}
 
-		System.out.println();
-
 	}
 
 
