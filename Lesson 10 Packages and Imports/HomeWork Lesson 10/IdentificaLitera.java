@@ -2,32 +2,24 @@
 
 import java.util.Scanner;
 
-
 public class IdentificaLitera {
 
 	public static void main(String [] args) {
 
+	// creare obiect nou din clasa scanner pentru a putea introduce informatii de la tastatura calculatorului
+		Scanner scanner = new Scanner(System.in);
 		
 	//introducere unui mesaj de salut, cu solicitarea de a introduce o litera alfabetului latin
-		
 		System.out.println("Salut, introdu o litera a alfabetului latin si apasa tasta Enter");
 	
-	// creare obiect nou din clasa scanner pentru a putea introduce informatii de la tastatura calculatorului
-
-		Scanner scanner = new Scanner(System.in);
-
-
 		String simbol = scanner.nextLine();
 
-
-		//stabilim ca lungimea sirului sa fie egala cu 1, ca sa fie posibila introducerea unei singure litere
-
+	//stabilim ca lungimea sirului sa fie egala cu 1, ca sa fie posibila introducerea unei singure litere
 		if (simbol.length() > 1) {
-			System.out.println("Ati introdus mai mult de o litera sau simboluri alfanumerice, reveniti si introduceti o sinura litera");
+			System.out.println("Ati introdus mai mult de o litera sau simboluri alfanumerice, reveniti si introduceti o singura litera");
 		
 		} else {
 			//vocalele alfabetului latin: A, E, I, O, U
-
 			switch(simbol) {
 	
 				case "A" :
