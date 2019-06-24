@@ -84,6 +84,7 @@ public class AritmeticCalculator {
 			return a * 0.01 * b;
 		}
 
+//partea de mai jos este pentru testarea metodelor
 	public static void main (String [] args) {
 
 		AritmeticCalculator rez = new AritmeticCalculator();
