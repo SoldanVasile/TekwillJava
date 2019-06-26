@@ -69,19 +69,19 @@ public class AritmeticCalculator {
 
 		//metode de extragere a X procente (%) dintr-un nr de tip int, byte, double
 
-		public double procent(double a, int b) {
-			System.out.println(b - (a * 0.01 * b));
-			return b - (a * 0.01 * b);
+		public double procent(double x, int b) {
+			System.out.println(b - (x * 0.01 * b));
+			return b - (x * 0.01 * b);
 		}
 
-		public double procent(double a, byte b) {
-			System.out.println(b - (a * 0.01 * b));
-			return b - (a * 0.01 * b);
+		public double procent(double x, byte b) {
+			System.out.println(b - (x * 0.01 * b));
+			return b - (x * 0.01 * b);
 		}
 		
-		public double procent(double a, double b) {
-			System.out.println(b - (a * 0.01 * b));
-			return b - (a * 0.01 * b);
+		public double procent(double x, double b) {
+			System.out.println(b - (x * 0.01 * b));
+			return b - (x * 0.01 * b);
 		}
 
 //partea de mai jos este pentru testarea metodelor
